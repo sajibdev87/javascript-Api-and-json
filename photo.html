@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>ALL photo</title>
+</head>
+<body>
+
+   <style>
+
+          /* header {
+           padding: 0px 20px 40px;
+          background-color: white;
+           box-shadow: rgba(33, 35, 38, 0.1) 0px 13px 14px -10px;
+           position: fixed;
+          left: 0;
+          right: 0;
+          }
+          .container {
+          width: 1200px;
+          margin: auto;
+          }
+
+          nav {
+           width: 600px;
+          float: left;
+          }
+
+          nav ul { 
+          margin: 0;
+           padding: 0;
+          list-style: none;
+          text-align: right;
+          }
+
+          nav ul li {
+           display: inline;
+          padding: 0px 15px 14px;
+          }
+
+          nav ul li a {
+          text-decoration: none;
+          color: #3b506c;
+          font-size: 18px;
+          font-weight: 500;
+          } */
+          .hello{
+             margin:50px 40px;
+             text-align:center; 
+             color: blue; 
+             margin: 40px;     
+          }
+
+
+          #photo-box{
+                    display: grid;
+                    grid-template-columns:repeat(3,1fr);
+                    grid-gap: 20px;
+                    text-align: center;
+                    color: fuchsia;
+            
+          }
+          .photo-details{
+                    border: 2px solid blue;
+                    border-radius: 5px;
+                    padding: 20px;
+
+          }
+       
+   </style> 
+<!--    
+   <header>
+          <div class="container">
+              <div class="logo">
+                  <img src="images/dark.svg" alt="">
+              </div>
+  
+              <nav>
+                  <ul>
+                      <li><a href="#home">Home</a></li>
+                      <li><a href="#about">About us</a></li>
+                      <li><a href="#service">Service</a></li>
+                      <li><a href="#blog">Blogs</a></li>
+                      <li><a href="#contact">Contact us</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </header> -->
+          <h1 class="hello">Hello Box How Are You</h1>
+          <div id="photo-box"></div>
+          <button onclick="loadPhotos()">click me</button>
+        
+          
+        
+
+<script src="photo.js"></script>
+          
+</body>
+</html>
